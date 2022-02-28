@@ -1,0 +1,119 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Cadastro conta a receber</title>
+      <link  rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+    
+      <h1>Cadastro Contas a Receber</h1>
+      <div class="base">
+        <form>
+            <div class="linha1">
+                <label>Cliente</label>
+                <input type="nome">
+                <label>Data Vencimento</label>
+                <input type="date">
+                <label>Data Pagamento</label>
+                <input type="date">
+            </div>
+            <div class="linha2">
+                <label>Estado</label>
+            <select name="Estado">
+                <option>Selecione o Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <label>Cidade</label>
+            <select name="Cidade">
+                <option>Selecione a Cidade</option>
+                <option value="1">Rio Branco</option>
+                <option value="2">Maceió</option>
+                <option value="3">Macapá</option>
+                <option value="4">Manaus</option>
+                <option value="5">Salvador</option>
+                <option value="6">Fortaleza</option>
+                <option value="7">Brasília</option>
+                <option value="8">Vitória</option>
+                <option value="9">Goiânia</option>
+                <option value="10">São Luís</option>
+                <option value="11">Cuiabá</option>
+                <option value="12">Campo Grande</option>
+                <option value="13">Belo Horizonte</option>
+                <option value="14">Belém</option>
+                <option value="15">João Pessoa</option>
+                <option value="16">Curitiba</option>
+                <option value="17">Recife</option>
+                <option value="18">Teresina</option>
+                <option value="19">Rio de Janeiro</option>
+                <option value="20">Natal</option>
+                <option value="21">Porto Alegre</option>
+                <option value="22">Porto Velho</option>
+                <option value="23">Boa Vista</option>
+                <option value="24">Florianópolis</option>
+                <option value="25">São Paulo</option>
+                <option value="26">Aracaju</option>
+                <option value="27">Palmas</option>
+            </select>
+              </div>
+                 <div class="linha3">
+                    <div class="coluna1">
+                    <label>Situação</label>
+                    <div>
+                        <input type="radio" value="pendente" name="notificação">
+                        <span class="pendente">Pendente</span>
+                    </div>
+                    <div>
+                        <input type="radio" value="processando" name="notificação">
+                        <span class="processando">Processando</span>
+                      </div>
+                      <div>
+                        <input type="radio" value="pago" name="notificação">
+                        <span class="pago">Pago</span>
+                      </div>
+
+                    </div>
+                    <div class="coluna2">
+                        <label>Observações</label>
+                        <textarea name="observacao"></textarea>
+                    </div>
+                    </div>
+
+                    <div class="linha4">
+                        <button id="excluir" type="delete">Excluir</button> 
+                        <button id="cancelar" type="cancel">Cancelar</button>
+                        <button id="salvar" type="save">Salvar</button>  
+                     </div>
+        
+
+
+        </form>
+       
+      </div>
+   </body>
